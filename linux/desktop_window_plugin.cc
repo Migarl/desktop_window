@@ -3,6 +3,7 @@
 #include <flutter_linux/flutter_linux.h>
 #include <gtk/gtk.h>
 #include <sys/utsname.h>
+#include <string.h>
 
 #define DESKTOP_WINDOW_PLUGIN(obj)                                     \
   (G_TYPE_CHECK_INSTANCE_CAST((obj), desktop_window_plugin_get_type(), \
